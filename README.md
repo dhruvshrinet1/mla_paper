@@ -187,8 +187,4 @@ Appendix C, and on the paper's own example outputs it reproduces the GPT-4
 ordering on all 15 pairwise comparisons. Its absolute values are compressed
 toward the top of the range and should not be compared to the paper's numbers.
 
-## License and attribution
 
-Implementation code is MIT. The paper is the authors' work; this repository is
-an independent reimplementation and is not affiliated with them. The paper
-states that official code will be released on acceptance.
