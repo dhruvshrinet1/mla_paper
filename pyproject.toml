@@ -1,0 +1,14 @@
+[project]
+name = "mla-smallmodels"
+version = "0.1.0"
+description = "Reimplementation of Latent Multi-Head Attention for Small Language Models (arXiv:2506.09342v2)"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.0", "numpy>=1.24", "tiktoken>=0.5", "matplotlib>=3.7"]
+
+[project.optional-dependencies]
+data = ["datasets>=2.14"]
+judge = ["openai>=1.0"]
+dev = ["pytest>=7.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

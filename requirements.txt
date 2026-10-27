@@ -1,0 +1,18 @@
+# core
+torch>=2.0
+numpy>=1.24
+
+# paper's tokenizer (Section 4.1: GPT-2, ~50K vocab)
+tiktoken>=0.5
+
+# figures
+matplotlib>=3.7
+
+# optional: the real TinyStories corpus
+# datasets>=2.14
+
+# optional: GPT-4 style judge for Section 5.2
+# openai>=1.0
+
+# optional: test suite
+# pytest>=7.0
